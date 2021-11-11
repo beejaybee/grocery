@@ -39,7 +39,7 @@ const handleSubmit = (e) => {
   } else {
     const newList = {id: new Date().getTime().toString(), title: name};
     setList([...list, newList]);
-    showAlert(true, 'success', 'you have successfully added to your grocery list')
+    showAlert(true, 'success', 'item added successfully')
     setName('')
   }
 }
