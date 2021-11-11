@@ -49,7 +49,7 @@ const showAlert = (show=false, type="", msg="") => {
 }
 
 const clearList = () => {
-  showAlert(true, 'danger', 'all the items have been deleteted')
+  showAlert(true, 'danger', 'all the items have been deleted')
   setList([]);
 }
 
